@@ -15,6 +15,7 @@ allprojects {
 }
 
 dependencies {
+     implementation 'com.github.Caij.iplayer:video:1.0.0'  //core
      implementation 'com.github.Caij.iplayer:ijkplayer:1.0.0'
      // implementation 'com.github.Caij.iplayer:exoplayer:1.0.0'
 }
