@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="surface_type" format="enum">
+        <enum name="none" value="0"/>
+        <enum name="surface_view" value="1"/>
+        <enum name="texture_view" value="2"/>
+    </attr>
+
+
+    <attr name="resize_mode" format="enum">
+        <enum name="fit" value="0"/>
+        <enum name="fixed_width" value="1"/>
+        <enum name="fixed_height" value="2"/>
+        <enum name="fill" value="3"/>
+        <enum name="zoom" value="4"/>
+    </attr>
+
+    <declare-styleable name="SimpleVideoView">
+        <attr name="surface_type"/>
+        <attr name="resize_mode"/>
+        <attr name="shutter_background_color" format="color"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,61 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.1'
+        
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+ext {
+    compileSdkVersion = 28
+    buildToolsVersion = "28.0.3"
+    targetSdk = 28
+    minSdk = 21 /*KITKAT*/
+
+    retrofitVersion = "2.5.0"
+    gsonVersion = "2.8.1"
+    stethoVersion = "1.3.1"
+    leakcanaryVersion = "1.6.2"
+    rxJavaVersion = "2.2.2"
+    rxAndroidVersion = "2.1.0"
+    okhttpVersion = "3.12.1"
+    butterknifeVersion = "10.0.0"
+    glideVersion = "4.8.0"
+    flexibledividerVersion = "1.4.0"
+    photoViewVersion = "2.2.0"
+    progressViewVersion = "1.0.1"
+    bottomNavigationLayoutVersion = "1.9.1"
+    subsamplingVersion = "3.10.0"
+    walleVersion = "1.1.6"
+    daggerVersion = "2.11"
+    wechatShareSdkVersion = "1.0.2"
+    ucropVersion = "2.2.2"
+    badgeTextViewVersion = "1.2.1"
+    exoplayerVersion = "2.9.3"
+    easyPermissionsVersion = "2.0.2"
+    rxDownload = "0.1.3"
+    toastVersion = "1.0.1"
+
+    annotation = "androidx.annotation:annotation:1.0.0"
+}
