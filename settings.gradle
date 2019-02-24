@@ -1,1 +1,1 @@
-include ':app',':video', ':ijkplayer', ':exoplayer'
+include ':app', ':video', ':ijkplayer', ':exoplayer'

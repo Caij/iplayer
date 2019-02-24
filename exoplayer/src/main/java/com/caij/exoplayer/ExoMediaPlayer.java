@@ -371,7 +371,7 @@ public class ExoMediaPlayer implements ExMediaPlayer {
 
     @Override
     public void setSpeed(float rate) {
-        PlaybackParameters params = new PlaybackParameters(rate, rate);
+        PlaybackParameters params = new PlaybackParameters(rate);
         mExoPlayer.setPlaybackParameters(params);
     }
 
